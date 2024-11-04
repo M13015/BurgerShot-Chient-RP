@@ -1,0 +1,24 @@
+.flexCenter {
+    display: flex;
+    
+    align-items: center;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(206, 17, 17);
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(212, 63, 63);
+}
